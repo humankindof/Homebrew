@@ -15,7 +15,7 @@
 
 # -----
 #install packages with brewpack
-# > brewpack install --repo humankindof/packages.yml
+# > brewpack install --repo humankindof/brew
 
 # -----
 #add completions definitions for asdf
