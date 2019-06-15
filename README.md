@@ -3,7 +3,8 @@ Homebrew install with brewpack packages.yml file.<br />
 Used for some commonly used brew and cask packages as well as web dev packages.
 
 * Install Homebrew:
-  *>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  
 
 * Install Brewpack:
   * Install manual: https:www.github.com/rouanw/brewpack
@@ -26,9 +27,8 @@ It will import any already installed packages and casks
 > brewpack install --repo rouanw/packages
 
 # asdf considerations
-asdf is installed for version control<br />
-with the humankinfof/Homebrew package<br />
-additional steps required
+asdf is installed with the humankinfof/Homebrew package. To make it work, You have to add Homebrew Shell COmpletion for Bash.
+
 * Add Homebrew Shell Completion
 For zsh see:
 manual: https://docs.brew.sh/Shell-Completion
