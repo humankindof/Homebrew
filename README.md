@@ -7,8 +7,10 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 
 * Install Brewpack:
   * Install manual: https:www.github.com/rouanw/brewpack
-  * > brew install brewpack<br />
+> brew install brewpack
+  
 or
+
 > brew rouanw/brewpack/brewpack
 
 * Create packages.yml for Brewpack
