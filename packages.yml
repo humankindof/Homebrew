@@ -5,7 +5,7 @@ packages:
 - coreutils
 #- asdf
 #- cask
-- node
+#- node
 casks:
 #- "==> Tapping homebrew/cask"
 - atom
