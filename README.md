@@ -25,20 +25,20 @@ brew installs
 
 #add to ~/.bash_profile:
 # > nano ~/.bash_profile
-#copy/paste without hash marks:
-#HOMEBREW_PREFIX=$(brew --prefix)
-#if type brew &>/dev/null; then
-#  for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*
-#  do
-#    [[ -f $COMPLETION ]] && source "$COMPLETION"
-#  done
-#  if [[ -f ${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh ]];
-#  then
-#    source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
-#  fi
-#fi
-#
-#. $(brew --prefix asdf)/asdf.sh
+
+HOMEBREW_PREFIX=$(brew --prefix)
+if type brew &>/dev/null; then
+  for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*
+  do
+    [[ -f $COMPLETION ]] && source "$COMPLETION"
+  done
+  if [[ -f ${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh ]];
+  then
+    source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
+  fi
+fi
+
+. $(brew --prefix asdf)/asdf.sh
 
 #or, at terminal:
 # > echo -e '\n. $(brew --prefix asdf)/asdf.sh' >> ~/.bash_profile
