@@ -32,13 +32,12 @@ asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it
 * Add Homebrew Shell Completion
   * For zsh see:
     * manual: https://docs.brew.sh/Shell-Completion
-  * For bash:<br /><br />
+  * For bash:<br />
     * open: ~/.bash_profile
-    
       > nano ~/.bash_profile
       
       add:
-<pre>
+      <pre>
 HOMEBREW_PREFIX=$(brew --prefix)
 if type brew &>/dev/null; then
   for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*
