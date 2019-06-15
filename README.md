@@ -40,6 +40,7 @@ if type brew &>/dev/null; then
   fi
 fi
 
+
 . $(brew --prefix asdf)/asdf.sh
 
 Alternatively, this will add completions for asdf only:
