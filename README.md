@@ -28,8 +28,8 @@ Usable examples:
 For zsh see:
 manual: https://docs.brew.sh/Shell-Completion
 
-For bash:<br />
-open: .bash_profile
+For bash:<br /><br />
+open: ~/.bash_profile
 > nano ~/.bash_profile
 
 add:
