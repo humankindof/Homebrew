@@ -7,16 +7,16 @@ Used for some commonly used brew and cask packages as well as web dev packages.
   
 
 * Install Brewpack:
-  * Install manual: https:www.github.com/rouanw/brewpack
-> brew install brewpack
+  Install manual: https:www.github.com/rouanw/brewpack
+  > brew install brewpack
   
-or
+  or
 
-> brew rouanw/brewpack/brewpack
+  > brew rouanw/brewpack/brewpack
 
 * Create packages.yml for Brewpack
-  * This creates your brewpack install list<br />
-It will import any already installed packages and casks
+  This creates your brewpack install list<br />
+It will import any already installed brew packages and casks on creation.
   * > brewpack init
 
 # Brewpacks
