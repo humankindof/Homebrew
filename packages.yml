@@ -6,7 +6,7 @@
 #install brewpack:
 # > brew install brewpack
 #or
-# > brew rouanm/brewpack/brewpack
+# > brew rouanw/brewpack/brewpack
 
 #create packages.yml for brewpack
 # > brewpack init
