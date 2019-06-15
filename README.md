@@ -2,7 +2,7 @@
 #for: commonly used brew and cask packages
 #as well as web dev. will include erlang elixir and neo4j.
 
-#Manual
+Manual
 
 # -----
 #install Homebrew:
