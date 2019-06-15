@@ -46,5 +46,6 @@ fi
 
 Alternatively, this will add completions for asdf only:
 > echo -e '\n. $(brew --prefix asdf)/asdf.sh' >> ~/.bash_profile
+
 Add if homebrew completions step is not done:
 > echo -e '\n. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash' >> ~/.bash_profile
