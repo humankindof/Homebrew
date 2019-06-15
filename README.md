@@ -1,4 +1,4 @@
-# Homebrew Install and Brewpack.
+# Homebrew Install with Brewpack.
 Homebrew install with brewpack packages.yml file.<br />
 Used for some commonly used brew and cask packages as well as web dev packages.
 
