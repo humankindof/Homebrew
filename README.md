@@ -3,7 +3,7 @@ Homebrew install with brewpack packages.yml file.<br />
 Used for some commonly used brew and cask packages as well as web dev packages.
 
 * Install Homebrew:
-* >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 * Install Brewpack:
 Install manual: https:www.github.com/rouanw/brewpack
