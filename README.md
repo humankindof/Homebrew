@@ -30,8 +30,8 @@ It will import any already installed brew packages and casks on creation.
 asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it work, You have to add Homebrew Shell Completion for Bash.
 
 * Add Homebrew Shell Completion
-  For zsh see:
-    manual: https://docs.brew.sh/Shell-Completion
+  * For zsh see:
+     `manual: https://docs.brew.sh/Shell-Completion
 
   For bash:<br /><br />
     open: ~/.bash_profile
