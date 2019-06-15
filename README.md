@@ -1,5 +1,5 @@
 # Homebrew install with brewpack.
-Homebrew install with brewpack packages.yml file.
+Homebrew install with brewpack packages.yml file.<br />
 Used for some commonly used brew and cask packages as well as web dev packages.
 
 # Install Homebrew:
@@ -9,15 +9,12 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 Install manual: https:www.github.com/rouanw/brewpack
 
 > brew install brewpack
-
-or
-
+<br />or
 > brew rouanw/brewpack/brewpack
 
 # Create packages.yml for brewpack
 This creates your brewpack install list
-
-It will import any already installed packages and casks
+<br />It will import any already installed packages and casks
 > brewpack init
 
 # Install packages with brewpack
@@ -31,8 +28,8 @@ Usable examples:
 For zsh see:
 manual: https://docs.brew.sh/Shell-Completion
 
-For bash:
-open .bash_profile
+For bash:<br />
+open: .bash_profile
 > nano ~/.bash_profile
 
 add:
