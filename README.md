@@ -12,18 +12,19 @@ install manual: https:www.github.com/rouanw/brewpack
 or
 > brew rouanw/brewpack/brewpack
 
-# create packages.yml for brewpack
+# Create packages.yml for brewpack
 This creates your brewpack install list
+it will import any already installed packages and casks
 > brewpack init
 
-# install packages with brewpack
+# Install packages with brewpack
 usable examples:
 > brewpack install --repo humankindof/Homebrew
 
 > brewpack install --repo rouanw/packages
 
 
-# add Homebrew Shell Completion
+# Add Homebrew Shell Completion
 manual: https://docs.brew.sh/Shell-Completion
 
 add to ~/.bash_profile:
