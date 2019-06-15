@@ -8,8 +8,8 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 # Install brewpack:
 Install manual: https:www.github.com/rouanw/brewpack
 
-> brew install brewpack
-<br />or
+> brew install brewpack<br />
+or<br />
 > brew rouanw/brewpack/brewpack
 
 # Create packages.yml for brewpack
