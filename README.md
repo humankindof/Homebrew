@@ -28,6 +28,7 @@ add to ~/.bash_profile:
 
 copy/paste:
 
+<pre>
 HOMEBREW_PREFIX=$(brew --prefix)<br />
 if type brew &>/dev/null; then<br />
   for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*<br />
@@ -41,6 +42,7 @@ if type brew &>/dev/null; then<br />
 fi<br />
 
 . $(brew --prefix asdf)/asdf.sh
+</pre>
 
 Alternatively, this will add completions for asdf only:
 > echo -e '\n. $(brew --prefix asdf)/asdf.sh' >> ~/.bash_profile
