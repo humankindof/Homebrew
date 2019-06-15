@@ -6,11 +6,11 @@ Homebrew install with brewpack packages.yml file for commonly used brew and cask
 
 # install brewpack:
 > brew install brewpack
-#or
-# > brew rouanw/brewpack/brewpack
+# or
+> brew rouanw/brewpack/brewpack
 
-#create packages.yml for brewpack
-# > brewpack init
+# create packages.yml for brewpack
+> brewpack init
 
 #installation manual: https://github.com/rouanw/brewpack
 
