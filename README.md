@@ -37,7 +37,7 @@ asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it
       > nano ~/.bash_profile
       
       add:
-      <pre>
+<pre>
 HOMEBREW_PREFIX=$(brew --prefix)
 if type brew &>/dev/null; then
   for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*
