@@ -45,11 +45,12 @@
 ---
 packages:
 #- rouanw/brewpack/brewpack
+#- coreutils
 #- asdf
 #- cask
 casks:
 #- "==> Tapping homebrew/cask"
 #- atom
-- iterm2
-- macterm
+#- iterm2
+#- macterm
 #- Tapped 1 command and 3589 casks (3,699 files, 3.9MB).
