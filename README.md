@@ -3,6 +3,7 @@ Homebrew install with brewpack packages.yml file.<br />
 Used for some commonly used brew and cask packages as well as web dev packages.
 
 * Install Homebrew:
+  * sublist
  >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 * Install Brewpack:<br />
@@ -15,6 +16,7 @@ or
 > brew rouanw/brewpack/brewpack
 
 * Create packages.yml for Brewpack
+*  sublist
 This creates your brewpack install list<br />
 It will import any already installed packages and casks
 > brewpack init
