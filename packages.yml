@@ -4,6 +4,8 @@
 
 # -----
 #install brewpack:
+# > brew install brewpack
+#or
 # > brew rouanm/brewpack/brewpack
 
 #create packages.yml for brewpack
