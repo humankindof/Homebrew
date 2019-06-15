@@ -5,7 +5,7 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 * Install Homebrew:
  >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-* Install Brewpack:
+* Install Brewpack:<br />
 Install manual: https:www.github.com/rouanw/brewpack
 
 > brew install brewpack
