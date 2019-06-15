@@ -26,16 +26,16 @@ It will import any already installed brew packages and casks on creation.
 
 > brewpack install --repo rouanw/packages
 
-# asdf considerations
-asdf is installed with the humankinfof/Homebrew package. To make it work, You have to add Homebrew Shell COmpletion for Bash.
+# asdf Considerations
+asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it work, You have to add Homebrew Shell Completion for Bash.
 
 * Add Homebrew Shell Completion
-For zsh see:
-manual: https://docs.brew.sh/Shell-Completion
+  For zsh see:
+    manual: https://docs.brew.sh/Shell-Completion
 
-For bash:<br /><br />
-open: ~/.bash_profile
-> nano ~/.bash_profile
+  For bash:<br /><br />
+    open: ~/.bash_profile
+    > nano ~/.bash_profile
 
 add:
 <pre>
