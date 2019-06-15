@@ -35,6 +35,7 @@ asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it
 
   * For bash:<br /><br />
     * open: ~/.bash_profile
+    
       > nano ~/.bash_profile
 
 add:
