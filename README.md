@@ -9,7 +9,7 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 * Install Brewpack:<br />
   * Install manual: https:www.github.com/rouanw/brewpack
 
-> brew install brewpack
+  * > brew install brewpack
 
 or
 
