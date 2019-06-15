@@ -1,28 +1,31 @@
-# Homebrew install with brewpack. 
-Homebrew install with brewpack packages.yml file for commonly used brew and cask packages as well as web dev.
+# Homebrew install with brewpack.
+Homebrew install with brewpack packages.yml file.
+Used for some commonly used brew and cask packages as well as web dev packages.
 
 # install Homebrew:
 >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install brewpack:
+install manual: rouanw/brewpack
+
 > brew install brewpack
 # or
 > brew rouanw/brewpack/brewpack
 
 # create packages.yml for brewpack
+This creates your brewpack install list
 > brewpack init
 
-#installation manual: https://github.com/rouanw/brewpack
-
-# -----
 #install packages with brewpack
-# > brewpack install --repo humankindof/brew
+> brewpack install --repo humankindof/brew
 
-# -----
-#add completions definitions for asdf
 
-#add to ~/.bash_profile:
-# > nano ~/.bash_profile
+# add completions definitions for asdf
+
+add to ~/.bash_profile:
+> nano ~/.bash_profile
+
+copy/paste:
 
 HOMEBREW_PREFIX=$(brew --prefix)
 if type brew &>/dev/null; then
