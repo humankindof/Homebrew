@@ -5,7 +5,7 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 * Install Homebrew:
 >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-** Install Brewpack:
+* Install Brewpack:
 Install manual: https:www.github.com/rouanw/brewpack
 
 > brew install brewpack
@@ -25,8 +25,11 @@ Usable examples:
 
 > brewpack install --repo rouanw/packages
 
-
-# Add Homebrew Shell Completion
+# asdf considerations
+asdf is installed for version control<br />
+with the humankinfof/Homebrew package<br />
+additional steps required
+* Add Homebrew Shell Completion
 For zsh see:
 manual: https://docs.brew.sh/Shell-Completion
 
