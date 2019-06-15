@@ -1,7 +1,15 @@
 
 ---
 packages:
+#- rouanw/brewpack/brewpack
+- coreutils
+#- asdf
+#- cask
 - node
 casks:
-- google-earth
-
+#- "==> Tapping homebrew/cask"
+- atom
+- iterm2
+- macterm
+- google-earth-pro
+#- Tapped 1 command and 3589 casks (3,699 files, 3.9MB).
