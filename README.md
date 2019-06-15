@@ -28,18 +28,17 @@ add to ~/.bash_profile:
 
 copy/paste:
 
-HOMEBREW_PREFIX=$(brew --prefix)
-if type brew &>/dev/null; then
-  for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*
-  do
-    [[ -f $COMPLETION ]] && source "$COMPLETION"
-  done
-  if [[ -f ${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh ]];
-  then
-    source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
-  fi
-fi
-
+HOMEBREW_PREFIX=$(brew --prefix)<br />
+if type brew &>/dev/null; then<br />
+  for COMPLETION in "$HOMEBREW_PREFIX"/etc/bash_completion.d/*<br />
+  do<br />
+    [[ -f $COMPLETION ]] && source "$COMPLETION"<br />
+  done<br />
+  if [[ -f ${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh ]];<br />
+  then<br />
+    source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"<br />
+  fi<br />
+fi<br />
 
 . $(brew --prefix asdf)/asdf.sh
 
