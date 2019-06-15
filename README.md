@@ -24,14 +24,15 @@ usable examples:
 > brewpack install --repo rouanw/packages
 
 
-# Add Homebrew Shell Completion
+# Add Homebrew Shell Completion definitions to .bash_profile.
+For zsh see:
 manual: https://docs.brew.sh/Shell-Completion
 
-add to ~/.bash_profile:
+For bash:
+open .bash_profile
 > nano ~/.bash_profile
 
-copy/paste:
-
+add:
 <pre>
 HOMEBREW_PREFIX=$(brew --prefix)
 if type brew &>/dev/null; then
