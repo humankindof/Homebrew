@@ -1,0 +1,12 @@
+#install Homebrew:
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#install brewpack:
+#brew rouanm/brewpack/brewpack
+---
+packages:
+#- rouanw/brewpack/brewpack
+- asdf
+casks:
+#- "==> Tapping homebrew/cask"
+- atom
+- Tapped 1 command and 3589 casks (3,699 files, 3.9MB).
