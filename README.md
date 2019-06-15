@@ -14,13 +14,14 @@ or
 
 > brew rouanw/brewpack/brewpack
 
-# Create packages.yml for Brewpack
-This creates your brewpack install list
-<br />It will import any already installed packages and casks
+* Create packages.yml for Brewpack
+This creates your brewpack install list<br />
+It will import any already installed packages and casks
 > brewpack init
 
-# Install Packages with Brewpack
-Usable examples:
+# Brewpacks
+## Install premade Brewpacks
+* Usable examples:
 > brewpack install --repo humankindof/Homebrew
 
 > brewpack install --repo rouanw/packages
