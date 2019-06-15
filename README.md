@@ -9,7 +9,7 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 install manual: rouanw/brewpack
 
 > brew install brewpack
-# or
+or
 > brew rouanw/brewpack/brewpack
 
 # create packages.yml for brewpack
