@@ -11,12 +11,12 @@ install manual: https:www.github.com/rouanw/brewpack
 > brew install brewpack
 or
 > brew rouanw/brewpack/brewpack
-
+<pre>
 # Create packages.yml for brewpack
 This creates your brewpack install list
 it will import any already installed packages and casks
 > brewpack init
-
+</pre>
 # Install packages with brewpack
 usable examples:
 > brewpack install --repo humankindof/Homebrew
