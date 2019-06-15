@@ -20,7 +20,8 @@ This creates your brewpack install list
 > brewpack install --repo humankindof/brew
 
 
-# add completions definitions for asdf
+# add Homebrew Shell Completion
+manual: https://docs.brew.sh/Shell-Completion
 
 add to ~/.bash_profile:
 > nano ~/.bash_profile
@@ -41,8 +42,7 @@ fi
 
 . $(brew --prefix asdf)/asdf.sh
 
-#or, at terminal:
-# > echo -e '\n. $(brew --prefix asdf)/asdf.sh' >> ~/.bash_profile
-# > echo -e '\n. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash' >> ~/.bash_profile
-
-# -----
+Alternatively, this will add completions for asdf only:
+> echo -e '\n. $(brew --prefix asdf)/asdf.sh' >> ~/.bash_profile
+Add if homebrew completions step is not done:
+> echo -e '\n. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash' >> ~/.bash_profile
