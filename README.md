@@ -1,9 +1,12 @@
-# brew
-brew installs
+# Homebrew install with brewpack. 
+#for: commonly used brew and cask packages
+#as well as web dev. will include erlang elixir and neo4j.
+
+#Manual
 
 # -----
 #install Homebrew:
-# > /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # -----
 #install brewpack:
