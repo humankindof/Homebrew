@@ -5,7 +5,7 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 # Install Homebrew:
 >/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install brewpack:
+# Install brewpack:
 install manual: https:www.github.com/rouanw/brewpack
 
 > brew install brewpack
@@ -16,8 +16,11 @@ or
 This creates your brewpack install list
 > brewpack init
 
-#install packages with brewpack
-> brewpack install --repo humankindof/brew
+# install packages with brewpack
+usable examples:
+> brewpack install --repo humankindof/Homebrew
+
+> brewpack install --repo rouanw/packages
 
 
 # add Homebrew Shell Completion
