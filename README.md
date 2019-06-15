@@ -9,16 +9,19 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 Install manual: https:www.github.com/rouanw/brewpack
 
 > brew install brewpack
+
 or
+
 > brew rouanw/brewpack/brewpack
 
 # Create packages.yml for brewpack
-This creates your brewpack install list<br />
+This creates your brewpack install list
+
 It will import any already installed packages and casks
 > brewpack init
 
 # Install packages with brewpack
-usable examples:
+Usable examples:
 > brewpack install --repo humankindof/Homebrew
 
 > brewpack install --repo rouanw/packages
