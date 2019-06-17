@@ -17,8 +17,8 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 ## Brewpacks
 ### Install premade Brewpacks
 * Usable examples:
-> brewpack install --repo humankindof/Homebrew
-> brewpack install --repo rouanw/packages
+  > brewpack install --repo humankindof/Homebrew
+  > brewpack install --repo rouanw/packages
 
 ## asdf Considerations
 asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it work, You have to add Homebrew Shell Completion for Bash.
