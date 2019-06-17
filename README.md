@@ -14,25 +14,19 @@ Used for some commonly used brew and cask packages as well as web dev packages.
 
   > brew rouanw/brewpack/brewpack
 
-* Create packages.yml for Brewpack
-  This creates your brewpack install list<br />
-It will import any already installed brew packages and casks on creation.
-  * > brewpack init
-
-# Brewpacks
-## Install premade Brewpacks
+## Brewpacks
+### Install premade Brewpacks
 * Usable examples:
 > brewpack install --repo humankindof/Homebrew
-
 > brewpack install --repo rouanw/packages
 
-# asdf Considerations
+## asdf Considerations
 asdf is installed with the humankinfof/Homebrew/packages.yml package. To make it work, You have to add Homebrew Shell Completion for Bash.
 
 * Add Homebrew Shell Completion
-  * For zsh see:
+  * For zsh:
     * manual: https://docs.brew.sh/Shell-Completion
-  * For bash:<br />
+  * For bash:
     * open: ~/.bash_profile
       > nano ~/.bash_profile
       
