@@ -12,10 +12,6 @@ This guide is specific to macOS 10.14
 * Install Brewpack:
   Install manual: https:www.github.com/rouanw/brewpack
   > brew install brewpack
-  
-  or
-
-  > brew rouanw/brewpack/brewpack
 
 ## Brewpacks
 ### Inherit premade Brewpacks
