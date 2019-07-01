@@ -14,3 +14,4 @@ casks:
 - anaconda
 - google-earth-pro
 - firefox-developer
+- docker
